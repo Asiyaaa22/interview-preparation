@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERVIEW PREPS!!</title>
+    <style>
+        body{
+            background-image: url(./winter-blue-pink-gradient-background-vector_53876-117276.webp);
+            background-size: cover;
+        }
+    em{
+    color: black;
+    font-weight: bolder;
+}
+    strong{
+color:navy
+}
+    h1{
+color: rgb(65, 32, 5);
+}
+
+    h2,h6{
+color: rgb(15, 94, 7);
+}
+    p{
+color: red;
+}
+    table, td,th{
+border: 2px solid black;
+
+}
+    center{
+font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    .full{
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <center><h1>HTML QUESTIONS</h1></center>
+    <h2>DAY-1</h2>
+    <!-- what's the difference between div and span? -->
+<div> Div is a block level element.It is used for larger part of the web page such as header,footer,main content and so on.</div>
+<span>Span is a inline level element. It is used to make a smaller part of content to stand out.</span><br/><br/>
+ <!-- what's the difference beween class and ID? -->
+Class- It is a selector. It is used to identify more than one element.<br/>
+
+ID- It is a selector used to identify one element. it is unique.<br/><br/>
+
+<!-- what are self-losing tags? -->
+Self-Closing tags are the tags which doesn't have any specific closing tag.<br/><br/>
+<!-- Some of them are <hr/>,<br/>and <img/> -->
+<!-- how many types of headings are there? how to decide which to use where? -->
+There are 6 types of headings (h1 to h6).Higher the number lower will be the size.
+<h1 class="head1">This is heading 1</h1>
+<h6>This is heading 6</h6>
+<!-- Difference between block ad inline? -->
+Block:These elements will take as much space as possible (or) it will take the whole space available by default.<br/>
+Each element will start a new line on a page.<br/>
+<!-- examples are:paragraph,all headings,lists,div, etc. -->
+<p>this is paragraph one</p>
+<!-- difference betwen em and strong? -->
+em:(THE EMPHASIS ELEMENT) It is bascially used to mar the text that has stress emphasis.It is displayed in <em>italics</em> by the browser
+<br/>
+strong:The strong tag is used to show that the text has greater importance than the surrounding text.It is displayed in <strong>bold</strong> by the browser<br/>
+<br/>
+<!-- what are attributes -->
+Attributes are special words which provides additional information about the elements.<br/>
+It should always be applied with is name and value pair.
+<br/>
+<br/>
+<h2>DAY-2</h2>
+<!-- difference between TML tags and elemnts? -->
+HTML tags are the keywords that how the web browser will format and display the content, Whereas HTML elements are defined by the starting and closing tag and some content in between them. <br/>
+<br/>
+<!-- explain br tags -->
+This tag is used to give a line break.
+<br/>
+<br/>
+<!-- Explain how many different types of lists are there in html? -->
+In HTML, we have 3 types of lists namely Ordered List, Unordered List and Description List.
+<br/>
+<br/>
+<!-- what are semantic tags? -->
+Semantic tags are used to describe its meaning to both the browser and the developer. It is also used in SEO.
+<br/>
+<br/>
+
+<!-- Write code to display an Ordered list with roman numbers? -->
+<ol type="I">
+<li>This is list one</li>
+<li>This is list two</li>
+</ol>
+
+<!-- write code to create an unordered list with circle? -->
+<ul type="circle">
+    <li>This is list three</li>
+    <li>This is list four</li>
+</ul>
+<!-- write a code to create a link to prepbytes? -->
+<a href="https://www.prepbytes.com">GO TO PREPBYTES</a>
+<br/>
+<br/>
+<h2>DAY-3</h2>
+<!-- write a code to insert an image? -->
+<img src="./night.jpg" alt="day">
+<br/>
+<br/>
+<!-- create a form contain input fields like name, age, email and contact -->
+<form action="./action.html">
+     <h2>FORM:</h2>
+    <label for="name"> Name:</label>
+    <input type="text" placeholder="Enter your name" id="name" name="name" required>
+    
+    <br/>
+    <br/>
+ 
+    <label for="email_id"> Email Address: </label>
+    <input type="email" placeholder="Enter your email_id" id="email_id" name="name" required>
+    
+    <br/>
+    <br/>
+ 
+    <label for="contact"> Contact:</label>
+    <input type="text" placeholder="10 digit mobile number" id="number_is" name="name" required>
+    
+    <br/>
+    <br/>
+    <button>SUMBIT</button>
+    <br/>
+    <br/>
+</form>
+<!-- create a table and explain how to acheieve a colspan? -->
+<h2>TABLE:</h2>
+<table>
+    <tr>
+        <th colspan="1" bgcolor="saddlebrown">Name</th>
+        <th  bgcolor="saddlebrown">Age</th>
+    </tr>
+    <tr>
+        <td>archit</td>
+        <td style: bgcolor="pink">24</td>
+      </tr>
+    <tr>
+        <td style: bgcolor="skyblue">riya</td>
+       
+        <td>20</td>
+      </tr>
+     
+</table>
+<br/>
+    <p class="full">COURSE:</p>
+    <input type="radio"  name="tech" value="course1">
+    <label for="course1">MEAN</label><br/>
+
+    <input type="radio"  name="tech" value="course2">
+    <label for="course2">MERN</label><br/>
+    <br/>
+    <p class="full">TECHNOLOGY:</p>
+    <input type="checkbox"  name="" value="check1">
+    <label for="check1">HTML</label><br/>
+
+    <input type="checkbox"  name="" value="check2">
+    <label for="check2">CSS</label><br/>
+
+    <input type="checkbox"  name="" value="check3">
+    <label for="check3">React</label><br/>
+
+    <input type="checkbox"  name="" value="check4">
+    <label for="check4">Node</label><br/>
+    <br/>
+
+
+    <a href="../DAY-1 HTML/DAY-2 CSS/index2.html">Click here for CSS</a>
+
+</body>
+</html>
